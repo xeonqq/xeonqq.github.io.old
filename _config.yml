@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-markdown: redcarpet
+#markdown: redcarpet
 #redcarpet:
         #  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
 
@@ -17,9 +17,9 @@ tagline: Site Tagline
 author :
   name : xeonqq
   email : xeonqq@gmail.com
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : xeonqq
+  #twitter : username
+  #feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
