@@ -3,9 +3,9 @@ layout: post
 title: "QQ's Project Portfolio"
 description: ""
 category: 
-tags: []
+tags: [portfolio]
 ---
 {% include JB/setup %}
 My project portfolio as [PDF][1]
 
-[1]:{{ http://xeonqq.github.io/ }}/downloads/project_portfolio.pdf
+[1]:{{ site.url }}/downloads/project_portfolio.pdf

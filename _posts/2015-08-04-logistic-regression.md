@@ -3,7 +3,7 @@ layout: post
 title: "Machine Learning Example: Logistic Regression"
 description: "Hands-on experiments while taking course from https://www.coursera.org/learn/machine-learning/"
 category: 
-tags: []
+tags: [machine-learning, python]
 ---
 {% include JB/setup %}
 ###All you have to know about machine learning:
