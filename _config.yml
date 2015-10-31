@@ -98,7 +98,10 @@ JB :
   #    colorscheme: light
   #  duoshuo :
   #    short_name : jekyllbootstrap
-   
+
+  google-ads :
+          ad-client : ca-pub-8693441428067295
+          ad-slot : 3183219369
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
