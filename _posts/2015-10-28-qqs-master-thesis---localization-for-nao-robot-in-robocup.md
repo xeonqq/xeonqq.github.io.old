@@ -9,6 +9,7 @@ tags: [thesis]
 My master thesis on topic "Multi-Hypotheses Kalman Filter based
 Self-Localization for Autonomous Soccer Robots" as [PDF][1]
 
-![RoboCup in Frankfurt]({{ site.url }}/assets/figs/DAI-localization.png)
+
+{% picture [preset] DAI-localization.png alt="RoboCup in Frankfurt" %}
 
 [1]:{{ site.url }}/downloads/master_thesis.pdf
