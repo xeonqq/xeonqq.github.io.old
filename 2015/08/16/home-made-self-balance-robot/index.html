@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Home-made Self-balance robot</title>
+	<meta name="author" content="xeonqq">
+	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
+	<link href="http://feeds.feedburner.com/" rel="alternate" title="Home-made Self-balance robot" type="application/atom+xml">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+</head>
+<body>
+
+<div id="page" class="hentry">
+	<header class="the-header">
+		<div class="unit-head">
+			<div class="unit-inner unit-head-inner">
+				<nav class="nav-global">
+					<ul>
+						<li class="logo"><a href="/">Xeonqq's Tech Playground</a></li>
+						<li class="archive"><a href="/archive.html">archive</a></li>
+						<li class="page"><a href="/pages.html">pages</a></li>
+						<li class="category"><a href="/categories.html">categories</a></li>
+						<li class="tag"><a href="/tags.html">tags</a></li>
+						<li class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=plusjade&repo=jekyll-bootstrap&type=fork&count=true"
+									allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></li>
+					</ul>
+				</nav>
+			</div><!-- unit-inner -->
+		</div><!-- unit-head -->
+	</header>
+	<div class="body" role="main">
+		<div class="unit-body">
+			<div class="unit-inner unit-body-inner">
+				<div class="entry-content">
+					
+<article class="unit-article layout-post">
+	<div class="unit-inner unit-article-inner">
+		<div class="content">
+			<header>
+				<div class="unit-head">
+					<div class="unit-inner unit-head-inner">
+						<h1 class="h2 entry-title">Home-made Self-balance robot</h1>
+					</div><!-- unit-inner -->
+				</div><!-- unit-head -->
+			</header>
+
+			<div class="bd">
+				<div class="entry-content">
+					<p>During my free time I built this robot which can balance itself on two wheels and can handle small disturbance. Further work shall be done on remote controlling to move it.</p>
+
+<p>The objective is to have some hands-on with proccessing the data of an inertia sensor, and also implementing the PID controller to have some insight of how PID works. In the end, of course, to have some fun!</p>
+
+<p>Code: <a href="https://github.com/xeonqq/balance_robot">Github Repo</a></p>
+
+<h2>Demo</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0947fcgWL5s" frameborder="0" allowfullscreen></iframe>
+
+<h2>Hardwares</h2>
+
+<ol>
+<li><p><a href="https://www.arduino.cc/en/Main/ArduinoBoardLeonardo">Arduino Leonardo Board</a></p></li>
+<li><p><a href="http://world.taobao.com/item/40496339515.htm?fromSite=main&amp;spm=a1z0d.6639537.1997196601.413.U9SqEj">2 DC Motors: JGA25-371 with encoders</a></p></li>
+<li><p><a href="http://world.taobao.com/item/20695931042.htm?fromSite=main&amp;spm=a1z0d.6639537.1997196601.4.U9SqEj">Arduino Motor Driver Shield</a></p></li>
+<li><p><a href="http://item.taobao.com/item.htm?spm=a312a.7700846.9.323.7gA2vL&amp;id=35296225045&amp;_u=f3e5nn585ef">12V-5V-3.3V Power Convertion Board</a></p></li>
+<li><p><a href="http://www.hobbyking.com/hobbyking/store/__38109__ZIPPY_Flightmax_2200mAh_3S1P_25C_EU_Warehouse_.html">ZIPPY Flightmax 2200mAh 3S1P 25C Battery</a></p></li>
+<li><p><a href="http://item.taobao.com/item.htm?spm=a312a.7700846.9.121.rql2Wm&amp;id=19087365613&amp;_u=f3e5nn58d41">HC-06 BlueTooth Module</a></p></li>
+<li><p><a href="https://detail.tmall.com/item.htm?id=18635718636&amp;toSite=main">MPU-6050 6DOF IMU</a></p></li>
+<li><p><a href="http://www.thingiverse.com/thing:969603">Self designed 3D-printed robot structure (on thingiverse)</a></p></li>
+</ol>
+
+<h2>Pin Connection</h2>
+
+<p>Refer to <a href="https://github.com/xeonqq/balance_robot/blob/kalman/motor.h">motor.h</a>. Leonardo Serial1 is used to connect the Bluetooth.</p>
+
+<h2>Dependency</h2>
+
+<p>MPU6050 lib from <a href="http://github.com/jrowberg/i2cdevlib.git">i2cdevlib</a> and <a href="https://code.google.com/p/arduino-pinchangeint/downloads/list">arduino-pinchangeint</a>. You need to place the libs in the ~/sketchbook/libraries/ folder</p>
+
+<h2>Software Key Components</h2>
+
+<ol>
+<li><p><em>Kalman filter</em>: to fuse the data from accerometer and gyro and output angle. The implementation is referenced from TKJElectronics&#39;s <a href="https://github.com/TKJElectronics/KalmanFilter">Balanduino</a>.</p></li>
+<li><p><em>PID control</em>: &quot;velocity&quot; PID which can prevent integral windup (Further theory refer to this <a href="http://lorien.ncl.ac.uk/ming/digicont/digimath/dpid1.htm">link</a>). Target is to stablize the robot around angle 0. </p></li>
+<li><p><em>Tune PID via Bluetooth</em>: I downloaded <a href="https://play.google.com/store/apps/details?id=es.pymasde.blueterm&amp;hl=en">BlueTerm</a> to pair and communicate with arduino. Can Tune the PID without wire.</p></li>
+<li><p><em>Motor control</em>: control use PWM signal, a bit tuning is done to make both motors run at same RPM given same PWM value. And the motor has a minimum PWM to be applied, because under certain minimum PWM value the motor does not move at all.</p></li>
+<li><p><em>Python Debug</em>: python script analysis/serial_plot.py can plot the data from Serial port in real time. But the message has to follow the format <em>&quot;name\t value\t name\t value\t...\n&quot;</em></p></li>
+</ol>
+
+<h2>Problem encountered</h2>
+
+<ul>
+<li><p>Initially, becuase I place the IMU with its x-axis pointing forward. So I was calculating the angle of the robot using x and z axis of the accerometer, along with the angle accumulated from gyro in x-axis, but that&#39;s wrong! I should use  gyro in y-axis, because rotating around y axis correspond to leaning forward.</p></li>
+<li><p>This motor can not supply enough torque when the robot deviate its angle too much, so the robot can still fall down when angle error is big.</p></li>
+</ul>
+
+					<div class="meta">
+						<p class="date-publish">
+							Published: 
+							<date class="date-pub" title="2015-08-16T00:00:00+02:00" datetime="2015-08-16T00:00:00+02:00" pubdate>
+							<span class="month"><abbr>August</abbr></span>
+							<span class="day">16</span>
+							<span class="year">2015</span>
+							</date>
+						</p>
+						<ul class="list-category list-linear">
+							<li class="list-head">category: </li>
+							
+							
+
+
+  
+    
+  
+
+
+						</ul>
+						<ul class="list-tag list-linear">
+							<li class="list-head">tags: </li>
+							
+							
+
+
+  
+     
+    	<li><a href="/tags.html#robot-ref">robot <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#arduino-ref">arduino <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#pid-ref">pid <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#kalman filter-ref">kalman filter <span>1</span></a></li>
+    
+  
+
+
+
+						</ul>
+					</div><!-- meta -->
+				</div><!-- entry-content -->
+				<div class="misc-content">
+					<div class="social">
+						<ul class="list-linear">
+							<li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="" data-lang="en">Tweet</a></div></li>
+							<li><div class="twitter-follow"><a href="https://twitter.com/" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+						</ul>
+					</div>
+					<div class="comment">
+					
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_developer = 1;
+    var disqus_shortname = 'xeonqqgithubio'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+					</div>
+				</div><!-- misc-content -->
+			</div><!-- bd -->
+			<footer class="unit-foot">
+				<div class="unit-inner unit-foot-inner">
+					<nav class="pagination">
+						<ul>
+							
+							<li class="prev"><a class="internal" rel="prev"  href="/2015/08/04/logistic-regression" title="View Machine Learning Example: Logistic Regression">&laquo; Machine Learning Example: Logistic Regression</a></li>
+							
+							
+							<li class="pipe"> | </li>
+							
+							
+							<li class="next"><a class="internal" rel="next"  href="/2015/10/20/qqs-project-portfolio" title="View QQ's Project Portfolio">QQ's Project Portfolio &raquo;</a></li>
+							
+						</ul>
+					</nav>
+					<p class="gotop">
+						<a href="#page">Back to Top</a>
+					</p>
+				</div>
+			</footer>
+
+		</div><!-- content -->
+	</div><!-- unit-inner -->
+</article>
+
+
+				</div>
+			</div><!-- unit-inner -->
+		</div><!-- unit-body -->
+	</div><!-- body -->
+	<footer class="the-footer">
+		<div class="unit-foot">
+			<div class="unit-inner unit-foot-inner">
+				<div class="misc vcard">
+					<h4>about</h4>
+					<ul>
+						<li class="contact"><address><span class="author fn n">xeonqq</span> - <span class="fn email">xeonqq@gmail.com</span></address></li>
+						<li class="github"><a href="http://github.com/xeonqq/" rel="me">github.com/xeonqq</a></li>
+						<li class="twitter"><a href="http://twitter.com//" rel="me">twitter.com/</a></li>
+						<li class="rss"><a href="http://feeds.feedburner.com/">Subscribe to RSS Feed</a></li>
+					</ul>
+				</div><!-- misc -->
+				<p class="licence">
+					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
+					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
+				</p>
+
+				<div><!--
+<style>
+.responsive-ads { width: 336px; height: 280px; }
+@media(min-width: 520px) { .responsive-ads { width: 468px; height: 60px; } }
+@media(min-width: 768px) { .responsive-ads { width: 160px; height: 600px; } }
+</style>
+-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- mini-ad -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8693441428067295"
+     data-ad-slot="3183219369"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div><!-- /.ads -->
+			</div><!-- unit-foot-inner -->
+		</div><!-- unit-foot -->
+
+	</footer>
+</div><!-- page -->
+<script>
+	(function(d, s) {
+		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.src = url; js.id = id;
+		fjs.parentNode.insertBefore(js, fjs);
+		};
+	load('//platform.twitter.com/widgets.js', 'tweetjs');
+	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
+	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="/2015/08/16/home-made-self-balance-robot" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
+	}(document, 'script'));
+</script>
+<script>
+/*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
+(function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
+</script>
+  
+  
+
+
+
+</body>
+</html>
+
+
