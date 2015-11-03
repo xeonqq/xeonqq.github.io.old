@@ -5,24 +5,24 @@
         <description>Xeonqq&#39;s Tech Playground - xeonqq</description>
         <link>http://xeonqq.github.io</link>
         <atom:link href="http://xeonqq.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 03 Nov 2015 15:59:50 +0100</lastBuildDate>
-        <pubDate>Tue, 03 Nov 2015 15:59:50 +0100</pubDate>
+        <lastBuildDate>Tue, 03 Nov 2015 16:12:20 +0100</lastBuildDate>
+        <pubDate>Tue, 03 Nov 2015 16:12:20 +0100</pubDate>
         <ttl>60</ttl>
 
 
         <item>
                 <title>QQ&#39;s Master Thesis -- Localization for NAO robot in RoboCup</title>
                 <description>&lt;p&gt;My master thesis on topic &amp;quot;Multi-Hypotheses Kalman Filter based
-Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;/downloads/master_thesis.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;http://xeonqq.github.io/downloads/master_thesis.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-1050by591-55318f.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-700by394-55318f.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-675by380-55318f.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-450by253-55318f.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-525by300-55318f.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/DAI-localization-350by200-55318f.png&quot;&gt;
-    &lt;img src=&quot;/generated/DAI-localization-350by200-55318f.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; alt=&quot;RoboCup in Frankfurt&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-1050by591-55318f.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-700by394-55318f.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-675by380-55318f.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-450by253-55318f.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-525by300-55318f.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/DAI-localization-350by200-55318f.png&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/DAI-localization-350by200-55318f.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; alt=&quot;RoboCup in Frankfurt&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 </description>
                 <link>http://xeonqq.github.io/2015/10/28/qqs-master-thesis---localization-for-nao-robot-in-robocup</link>
@@ -32,7 +32,7 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;/do
 
         <item>
                 <title>QQ&#39;s Project Portfolio</title>
-                <description>&lt;p&gt;My project portfolio as &lt;a href=&quot;/downloads/project_portfolio.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+                <description>&lt;p&gt;My project portfolio as &lt;a href=&quot;http://xeonqq.github.io/downloads/project_portfolio.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
 </description>
                 <link>http://xeonqq.github.io/2015/10/20/qqs-project-portfolio</link>
                 <guid>http://xeonqq.github.io/2015/10/20/qqs-project-portfolio</guid>
@@ -48,13 +48,13 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;/do
 &lt;h3&gt;Schematics&lt;/h3&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-1050by598-2747f4.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-700by398-2747f4.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-675by384-2747f4.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-450by256-2747f4.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-525by300-2747f4.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/power_schematics-350by200-2747f4.png&quot;&gt;
-    &lt;img src=&quot;/generated/power_schematics-350by200-2747f4.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; alt=&quot;Schematics&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-1050by598-2747f4.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-700by398-2747f4.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-675by384-2747f4.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-450by256-2747f4.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-525by300-2747f4.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-350by200-2747f4.png&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/power_schematics-350by200-2747f4.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; alt=&quot;Schematics&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B1QY_8aEaeLeTlJYc2hvTVlPVUE/view?usp=sharing&quot;&gt;Schematics in pdf&lt;/a&gt;&lt;/p&gt;
@@ -62,23 +62,23 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;/do
 &lt;h3&gt;PCB&lt;/h3&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-1050by533-59dfd6.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-700by355-59dfd6.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-675by342-59dfd6.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-450by228-59dfd6.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-525by300-59dfd6.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_front-350by200-59dfd6.png&quot;&gt;
-    &lt;img src=&quot;/generated/pcb_front-350by200-59dfd6.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-1050by533-59dfd6.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-700by355-59dfd6.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-675by342-59dfd6.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-450by228-59dfd6.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-525by300-59dfd6.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_front-350by200-59dfd6.png&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/pcb_front-350by200-59dfd6.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-1050by543-770718.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-700by362-770718.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-675by349-770718.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-450by233-770718.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-525by300-770718.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/pcb_back-350by200-770718.png&quot;&gt;
-    &lt;img src=&quot;/generated/pcb_back-350by200-770718.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-1050by543-770718.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-700by362-770718.png&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-675by349-770718.png&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-450by233-770718.png&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-525by300-770718.png&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_back-350by200-770718.png&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/pcb_back-350by200-770718.png&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 
 &lt;p&gt;Tips I got from experienced PCB designer:&lt;/p&gt;
@@ -94,23 +94,23 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;/do
 &lt;p&gt;I got the etched PCB from university&amp;#39;s lab. I still need to place the components like mos-fet, diode and mini-transformers. Because these components are SMDs, Soldering paste has to be applied first on the pads before you actully place the components on it. After that, the PCB is sent to a reflow oven to be &amp;quot;cooked&amp;quot;.&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-1050by591-e7de07.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-700by394-e7de07.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-675by380-e7de07.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-450by253-e7de07.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-525by300-e7de07.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/cooked_pcb-350by200-e7de07.jpg&quot;&gt;
-    &lt;img src=&quot;/generated/cooked_pcb-350by200-e7de07.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-1050by591-e7de07.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-700by394-e7de07.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-675by380-e7de07.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-450by253-e7de07.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-525by300-e7de07.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/cooked_pcb-350by200-e7de07.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/cooked_pcb-350by200-e7de07.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-1050by788-e133f8.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-700by525-e133f8.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-675by506-e133f8.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-450by338-e133f8.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-525by300-e133f8.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;/generated/ociliscope_phone-350by200-e133f8.jpg&quot;&gt;
-    &lt;img src=&quot;/generated/ociliscope_phone-350by200-e133f8.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-1050by788-e133f8.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-700by525-e133f8.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-675by506-e133f8.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-450by338-e133f8.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-525by300-e133f8.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 </description>
                 <link>http://xeonqq.github.io/2015/09/04/harness-the-power-from-the-mobile-phones-audio-jack</link>
@@ -280,22 +280,7 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
 &lt;h3&gt;The Jekyll Application Base Format&lt;/h3&gt;
 
 &lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;.
-|-- _config.yml
-|-- _includes
-|-- _layouts
-|   |-- default.html
-|   |-- post.html
-|-- _posts
-|   |-- 2011-10-25-open-source-is-good.markdown
-|   |-- 2011-04-26-hello-world.markdown
-|-- _site
-|-- index.html
-|-- assets
-    |-- css
-        |-- style.css
-    |-- javascripts
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;
 Stores configuration data.&lt;/p&gt;&lt;/li&gt;
