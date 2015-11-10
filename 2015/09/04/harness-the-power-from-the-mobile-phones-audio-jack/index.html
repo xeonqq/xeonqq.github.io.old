@@ -55,6 +55,8 @@
 
 <h3>Schematics</h3>
 
+<p>Basically the circuit has its input from the left side connector and the input signal goes through a 1:20 micro-transformer to increase the voltage. Afterwards there is a rectifier circuit constituted by 2 N-mos and 2 P-mos which will flip the negative voltage to positive. The Schottky diode after the rectifier is just to prevent current from flowing back (due to the discharge of following capacities). In the end, filtering capacitors are placed to have a smoothed output voltage.</p>
+
 <p><picture>
     <source srcset="http://xeonqq.github.io/generated/power_schematics-1050by598-2747f4.png" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
     <source srcset="http://xeonqq.github.io/generated/power_schematics-700by398-2747f4.png" media="(min-width: 40em)">
@@ -111,7 +113,21 @@
     <img src="http://xeonqq.github.io/generated/cooked_pcb-350by200-e7de07.jpg" class="blog-full" itemprop="image" >
   </picture></p>
 
+<p>The finished board is like this:</p>
+
 <p><picture>
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-1050by591-0d853d.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-700by394-0d853d.jpg" media="(min-width: 40em)">
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-675by380-0d853d.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-450by253-0d853d.jpg" media="(min-width: 30em)">
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-525by300-0d853d.jpg" media="(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)">
+    <source srcset="http://xeonqq.github.io/generated/pcb_done-350by200-0d853d.jpg">
+    <img src="http://xeonqq.github.io/generated/pcb_done-350by200-0d853d.jpg" class="blog-full" itemprop="image" >
+  </picture></p>
+
+<p>To test the circuit, I installed signal generator App on my Android phone. Set the signal to maximum dB and at 20kHz.
+In the picture below it shows the output signal on the ociliscope, with around 5.6V. (Here, an Led and a resistor is the load)
+<picture>
     <source srcset="http://xeonqq.github.io/generated/ociliscope_phone-1050by788-e133f8.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)">
     <source srcset="http://xeonqq.github.io/generated/ociliscope_phone-700by525-e133f8.jpg" media="(min-width: 40em)">
     <source srcset="http://xeonqq.github.io/generated/ociliscope_phone-675by506-e133f8.jpg" media="(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)">
@@ -120,6 +136,9 @@
     <source srcset="http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg">
     <img src="http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg" class="blog-full" itemprop="image" >
   </picture></p>
+
+<p>In the end, I didn&#39;t soilder the LED, because it is wasting the power. I only put one filtering capacitor of 10uF.
+I try to use it to power my Arduino Leonardo, but it doesn&#39;t work. It seems that the board is trying to boot, but not enough power. However, because I don&#39;t have a low power ATmega or a Msp430, I couldn&#39;t test what is achieved in this <a href="https://web.eecs.umich.edu/%7Eprabal/pubs/papers/kuo10hijack-islped.pdf">paper</a>.</p>
 
 					<div class="meta">
 						<p class="date-publish">

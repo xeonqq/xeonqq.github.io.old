@@ -4,7 +4,7 @@
  <title>Xeonqq&#39;s Tech Playground</title>
  <link href="http://xeonqq.github.io/atom.xml" rel="self"/>
  <link href="http://xeonqq.github.io"/>
- <updated>2015-11-03T16:12:20+01:00</updated>
+ <updated>2015-11-10T18:38:20+01:00</updated>
  <id>http://xeonqq.github.io</id>
  <author>
    <name>xeonqq</name>
@@ -51,6 +51,8 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;htt
 &lt;h2&gt;Schematics and PCB design&lt;/h2&gt;
 
 &lt;h3&gt;Schematics&lt;/h3&gt;
+
+&lt;p&gt;Basically the circuit has its input from the left side connector and the input signal goes through a 1:20 micro-transformer to increase the voltage. Afterwards there is a rectifier circuit constituted by 2 N-mos and 2 P-mos which will flip the negative voltage to positive. The Schottky diode after the rectifier is just to prevent current from flowing back (due to the discharge of following capacities). In the end, filtering capacitors are placed to have a smoothed output voltage.&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/power_schematics-1050by598-2747f4.png&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
@@ -108,7 +110,21 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;htt
     &lt;img src=&quot;http://xeonqq.github.io/generated/cooked_pcb-350by200-e7de07.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
 
+&lt;p&gt;The finished board is like this:&lt;/p&gt;
+
 &lt;p&gt;&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-1050by591-0d853d.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-700by394-0d853d.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-675by380-0d853d.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-450by253-0d853d.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-525by300-0d853d.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/pcb_done-350by200-0d853d.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/pcb_done-350by200-0d853d.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;To test the circuit, I installed signal generator App on my Android phone. Set the signal to maximum dB and at 20kHz.
+In the picture below it shows the output signal on the ociliscope, with around 5.6V. (Here, an Led and a resistor is the load)
+&lt;picture&gt;
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-1050by788-e133f8.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-700by525-e133f8.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-675by506-e133f8.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
@@ -117,6 +133,9 @@ Self-Localization for Autonomous Soccer Robots&amp;quot; as &lt;a href=&quot;htt
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg&quot;&gt;
     &lt;img src=&quot;http://xeonqq.github.io/generated/ociliscope_phone-350by200-e133f8.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;In the end, I didn&amp;#39;t soilder the LED, because it is wasting the power. I only put one filtering capacitor of 10uF.
+I try to use it to power my Arduino Leonardo, but it doesn&amp;#39;t work. It seems that the board is trying to boot, but not enough power. However, because I don&amp;#39;t have a low power ATmega or a Msp430, I couldn&amp;#39;t test what is achieved in this &lt;a href=&quot;https://web.eecs.umich.edu/%7Eprabal/pubs/papers/kuo10hijack-islped.pdf&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -285,7 +304,22 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
 &lt;h3&gt;The Jekyll Application Base Format&lt;/h3&gt;
 
 &lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
-
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt;
 Stores configuration data.&lt;/p&gt;&lt;/li&gt;
