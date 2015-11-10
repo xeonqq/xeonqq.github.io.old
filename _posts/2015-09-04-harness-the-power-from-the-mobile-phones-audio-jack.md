@@ -12,6 +12,8 @@ Inspired by the [paper](https://web.eecs.umich.edu/~prabal/pubs/papers/kuo10hija
 ##Schematics and PCB design
 
 ###Schematics 
+Basically the circuit has its input from the left side connector and the input signal goes through a 1:20 micro-transformer to increase the voltage. Afterwards there is a rectifier circuit constituted by 2 N-mos and 2 P-mos which will flip the negative voltage to positive. The Schottky diode after the rectifier is just to prevent current from flowing back (due to the discharge of following capacities). In the end, filtering capacitors are placed to have a smoothed output voltage.
+
 {% picture [preset] power_schematics.png alt="Schematics" %}
 [Schematics in pdf](https://drive.google.com/file/d/0B1QY_8aEaeLeTlJYc2hvTVlPVUE/view?usp=sharing)
 
@@ -36,6 +38,17 @@ I got the etched PCB from university's lab. I still need to place the components
 
 {% picture [preset] cooked_pcb.jpg  %}
 
+The finished board is like this:
+
+{% picture [preset] pcb_done.jpg  %}
+
+
+To test the circuit, I installed signal generator App on my Android phone. Set the signal to maximum dB and at 20kHz.
+In the picture below it shows the output signal on the ociliscope, with around 5.6V. (Here, an Led and a resistor is the load)
 {% picture [preset] ociliscope_phone.jpg  %}
+
+In the end, I didn't soilder the LED, because it is wasting the power. I only put one filtering capacitor of 10uF.
+I try to use it to power my Arduino Leonardo, but it doesn't work. It seems that the board is trying to boot, but not enough power. However, because I don't have a low power ATmega or a Msp430, I couldn't test what is achieved in this [paper](https://web.eecs.umich.edu/~prabal/pubs/papers/kuo10hijack-islped.pdf).
+
 
 
