@@ -8,6 +8,7 @@ http://xeonqq.github.io/rss.xml
 http://xeonqq.github.io/sitemap.txt
 http://xeonqq.github.io/tags.html
 
+http://xeonqq.github.io/2015/12/26/berlin-gourmet
 http://xeonqq.github.io/2015/10/28/qqs-master-thesis---localization-for-nao-robot-in-robocup
 http://xeonqq.github.io/2015/10/20/qqs-project-portfolio
 http://xeonqq.github.io/2015/09/04/harness-the-power-from-the-mobile-phones-audio-jack

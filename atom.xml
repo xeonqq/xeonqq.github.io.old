@@ -4,13 +4,152 @@
  <title>Xeonqq&#39;s Tech Playground</title>
  <link href="http://xeonqq.github.io/atom.xml" rel="self"/>
  <link href="http://xeonqq.github.io"/>
- <updated>2015-11-10T18:38:20+01:00</updated>
+ <updated>2015-12-26T17:32:43+01:00</updated>
  <id>http://xeonqq.github.io</id>
  <author>
    <name>xeonqq</name>
    <email>xeonqq@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>柏林美食地图(不断更新)</title>
+   <link href="http://xeonqq.github.io/2015/12/26/berlin-gourmet"/>
+   <updated>2015-12-26T00:00:00+01:00</updated>
+   <id>http://xeonqq.github.io/2015/12/26/berlin-gourmet</id>
+   <content type="html">&lt;p&gt;本人吃货一枚，由于在柏林工大上学，于是在柏林也呆了至少2年。闲暇之时除了认真学习，码码代码，也喜欢到处寻觅美食。希望通过此博文，记录我走过的路，吃过的饭，也给同样是吃货的你们一些借鉴。我将主要以图片的方式陈列，再加上一些我自己吃完的感受，会非常主观，所以纯粹个人观点，随便看看。&lt;/p&gt;
+
+&lt;h2&gt;中餐篇&lt;/h2&gt;
+
+&lt;h1&gt;Tu Long 土龙&lt;/h1&gt;
+
+&lt;p&gt;Otto-Suhr-Allee 25
+10585 Berlin&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;吃的次数: &amp;gt; 20， 就在TUB旁边, 价廉物美，茶水免费。我基本去了无数次了。每个菜都吃过了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;一个菜均价: 6.5 Euro&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我觉得好吃的菜: 羊腩煲，铁板牛肉，八珍豆腐煲&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;我觉得不好吃的菜: 面条类&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Ming’s (Jiaozi, hotpot n more)&lt;/h1&gt;
+
+&lt;p&gt;Otto Suhr Allee 11-13
+10585 Berlin&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;吃的次数: &amp;gt; 10, 不想吃土龙或者土龙不开的时候会去，本人屌丝，从来没吃过点菜的&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;午间套餐不错一份 6.98 Euro&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;面条也不错 5-7 Euro&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jiaozi Buffet也不错, 好像12欧一人，不同的陷随便吃&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;城乡小调&lt;/h1&gt;
+
+&lt;p&gt;Morsestr. 3, 10587 Berlin- Charlottenburg&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;吃的次数: = 1。 一家非常不起眼的台湾餐厅。进店之后老板推荐他们的晚间的2人套餐，然后不需要点菜，老板会询问你的口味来给你安排菜肴，还是挺特别的。我看菜单上写的 19 Euro，就觉得OK。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;三个前菜菜：
+&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-685by913-b3a293.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-685by913-b3a293.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-675by900-b3a293.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-450by600-b3a293.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-525by300-b3a293.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao1-350by200-b3a293.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/chengdiao1-350by200-b3a293.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;炸馄饨
+&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-685by913-0e9b1c.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-685by913-0e9b1c.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-675by900-0e9b1c.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-450by600-0e9b1c.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-525by300-0e9b1c.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao2-350by200-0e9b1c.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/chengdiao2-350by200-0e9b1c.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;炸的豆腐和萝卜蘑菇
+&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-718by914-634f96.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-700by891-634f96.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-675by859-634f96.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-450by573-634f96.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-525by300-634f96.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao3-350by200-634f96.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/chengdiao3-350by200-634f96.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;茄子&lt;/p&gt;
+
+&lt;p&gt;两个主菜
+&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-685by913-04e711.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-685by913-04e711.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-675by900-04e711.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-450by600-04e711.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-525by300-04e711.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao4-350by200-04e711.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/chengdiao4-350by200-04e711.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;豆腐果烧鸡肉
+&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-685by913-84acf9.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-685by913-84acf9.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-675by900-84acf9.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-450by600-84acf9.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-525by300-84acf9.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/chengdiao5-350by200-84acf9.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/chengdiao5-350by200-84acf9.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;豆腐烧腊肉&lt;/p&gt;
+
+&lt;p&gt;最后结帐的时候老板说是每个人19欧，于是我整个人都不好了。虽然说菜的味道还是不错的，但对于这5个菜而言有点贵了。&lt;/p&gt;
+
+&lt;h2&gt;西餐篇&lt;/h2&gt;
+
+&lt;h1&gt;Marubi （日本料理）&lt;/h1&gt;
+
+&lt;p&gt;Kollwitzstr. 47
+10405 Berlin&lt;/p&gt;
+
+&lt;p&gt;&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-728by971-9bb33d.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-700by934-9bb33d.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-675by900-9bb33d.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-450by600-9bb33d.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-525by300-9bb33d.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi1-350by200-9bb33d.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/Marubi1-350by200-9bb33d.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;三文鱼饭 好像 6 Euro&lt;/p&gt;
+
+&lt;p&gt;&lt;picture&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-685by913-3855e2.jpg&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-685by913-3855e2.jpg&quot; media=&quot;(min-width: 40em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-675by900-3855e2.jpg&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-450by600-3855e2.jpg&quot; media=&quot;(min-width: 30em)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-525by300-3855e2.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
+    &lt;source srcset=&quot;http://xeonqq.github.io/generated/Marubi2-350by200-3855e2.jpg&quot;&gt;
+    &lt;img src=&quot;http://xeonqq.github.io/generated/Marubi2-350by200-3855e2.jpg&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
+  &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;海鲜拉面 8.9 Euro&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;吃的次数: = 1。饭和面的量都极其之少，作为男生的话，完全无法吃饱。味道还可以，店员都是中国人。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>QQ&#39;s Master Thesis -- Localization for NAO robot in RoboCup</title>
