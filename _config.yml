@@ -32,6 +32,8 @@ author :
 production_url : http://xeonqq.github.io
 url: http://xeonqq.github.io
 
+google_verify: Ic1Cid-iiCrxVqwo4OySmLegCdmIoJVZpYNLw2un-1s
+
 sitemap:
     file: "/sitemap.xml"
     exclude:
