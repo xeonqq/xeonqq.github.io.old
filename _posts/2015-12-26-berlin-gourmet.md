@@ -37,6 +37,7 @@ Otto Suhr Allee 11-13
 
 - 面条也不错 5-7 Euro
 
+{% picture [preset] Ming_Dynastie.JPG   %}
 - Jiaozi Buffet也不错, 好像12欧一人，不同的陷随便吃
 
 #城乡小调
@@ -84,6 +85,25 @@ Gleimstr. 24
 
 最后结帐的时候老板说是每个人19欧，于是我整个人都不好了。虽然说菜的味道还是不错的，但对于这5个菜而言有点贵了。
 
+
+
+# Yami Yami (湘聚阁)
+
+Grunewaldstraße 60, 10825 Berlin
+
+{% picture [preset] yamiyami_ad.JPG %}
+有点不小心看到了上图中的广告，觉得打完折还挺便宜的，就去尝试了一下
+
+{% picture [preset] yamiyami1.JPG %}
+炖猪手 好像6-7 Euro
+
+{% picture [preset] yamiyami2.JPG %}
+香辣鱼锅 9 Euro
+
+- 吃的次数: = 1。味道还可以，由于是湘菜，味道还是挺辣的。猪手骨头居多，鱼的话感觉是介于草鱼和越南鱼的中间，不确定是什么鱼。
+
+
+
 ##西餐篇
 
 #Marubi （日本料理）
@@ -104,10 +124,10 @@ Kollwitzstr. 47
 
 Wielandstraße 6, 10625 Berlin
 
-{% picture [preset] El_Borriquito2.jpg  %}
+{% picture [preset] El_Borriquito2.JPG  %}
 海鲜grill拼盘 13.5 Euro
 
-{% picture [preset] El_Borriquito4.jpg  %}
+{% picture [preset] El_Borriquito4.JPG  %}
 海鲜饭 12.5 Euro
 
 - 吃的次数: = 1。这家点还挺火的，去之前最好提前预约。我觉得在柏林能吃到这个挺新鲜的海鲜还是很不错的，海鲜拼盘挺赞，里面海鲜品种挺多的，味道也挺好的。
