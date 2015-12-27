@@ -81,12 +81,12 @@ Kantstrasse 30
 
 - 吃的次数: = 4。 柏林相当有历史的老粤菜餐馆，整体口碑在中国人和德国人里都很不错。他们家上菜很快，味道也很正宗，就是价钱较贵，毕竟名气在外，而且客人也很多。遇到周末或者节假日有可能会因为屋里座无虚席而在门口排队等位置。
 
-松鼠鲤鱼：
-{% picture [preset] shanshan1.jpg   %}
-砂锅猪手：
-{% picture [preset] shanshan2.jpg   %}
-
-
+香辣蒸牛百叶
+{% picture [preset] good_friend3.JPG   %}
+明炉烧鸭：
+{% picture [preset] good_friend1.JPG   %}
+火腩豆腐煲：
+{% picture [preset] good_friend2.JPG   %}
 
 
 # 湘聚阁 Yami Yami
@@ -161,5 +161,17 @@ Wielandstraße 6, 10625 Berlin
 
 - 吃的次数: = 1。这家点还挺火的，去之前最好提前预约。我觉得在柏林能吃到这个挺新鲜的海鲜还是很不错的，海鲜拼盘挺赞，里面海鲜品种挺多的，味道也挺好的。
 
+
+#Neue Heimat之章鱼小丸子
+
+Revaler Str. 99
+10245 Berlin
+
+- 吃的次数: = 1。柏林有很多露天的可以吃到各地美食的小市场，外国人很喜欢去那里吃点东西聊聊天，Neue Heimat是评价比较好的市场之一。一般来说，这种市场中国人比较少，因为对大多数国人而言，这里所谓的美食并没有足够的吸引力，并且价位比较高。我是为了章鱼小丸子去的，有时间和兴趣的同学也可以去其他类似的市场看看，一来感受一下气氛，二来可以寻找自己心中的美食。
+
+一份小丸子的价位 好像3.5 Euro
+{% picture [preset] xiaowanzi1.JPG  %}
+{% picture [preset] xiaowanzi2.JPG  %}
+{% picture [preset] xiaowanzi3.JPG  %}
 
 
