@@ -11,7 +11,7 @@ tags: []
 
 ##中餐篇
 
-#Tu Long 土龙
+#土龙 Tu Long 
 
 Otto-Suhr-Allee 25
 10585 Berlin
@@ -26,7 +26,7 @@ Otto-Suhr-Allee 25
  
 
 
-#Ming’s (Jiaozi, hotpot n more)
+#大明 Ming’s (Jiaozi, hotpot n more)
 
 Otto Suhr Allee 11-13
 10585 Berlin
@@ -89,12 +89,12 @@ Kantstrasse 30
 
 
 
-# Yami Yami (湘聚阁)
+# 湘聚阁 Yami Yami
 
 Grunewaldstraße 60, 10825 Berlin
 
 {% picture [preset] yamiyami_ad.JPG %}
-有点不小心看到了上图中的广告，觉得打完折还挺便宜的，就去尝试了一下
+由于不小心看到了上图中的广告，觉得打完折还挺便宜的，就去尝试了一下
 
 {% picture [preset] yamiyami1.JPG %}
 炖猪手 好像6-7 Euro
@@ -104,6 +104,33 @@ Grunewaldstraße 60, 10825 Berlin
 
 - 吃的次数: = 1。味道还可以，由于是湘菜，味道还是挺辣的。猪手骨头居多，鱼的话感觉是介于草鱼和越南鱼的中间，不确定是什么鱼。
 
+# Dajiale China Restaurant (大家乐)
+
+Goebenstraße 23, 10783 Berlin
+
+{% picture [preset] dajiale1.JPG %}
+溜猪肚 11.5 Euro 
+
+{% picture [preset] dajiale2.JPG %}
+得莫利炖鱼 19 Euro
+
+- 吃的次数: = 1。捧着尝鲜的心态去吃的这家东北菜馆。但看到菜单的那一刻，我等屌丝就被价格震撼了。简单评价就是溜肚不好吃，炖鱼不如中国城的，菜质量对不起这价格。
+
+
+# 美食屋
+
+Nürnberger Str. 28, 10789 Berlin
+
+{% picture [preset] meishiwu1.JPG %}
+辣子鸡丁 8 Euro
+
+{% picture [preset] meishiwu2.JPG %}
+麻婆豆腐 8 Euro
+
+{% picture [preset] meishiwu_ad1.JPG %}
+菜单
+
+- 吃的次数: = 2。刚开业的时候去的，当时所有菜还打8折，菜本来也不贵，所以还挺实惠的。老板是江浙的，菜的味道中规中矩，没有太大惊喜，但也不差。
 
 
 ##西餐篇
