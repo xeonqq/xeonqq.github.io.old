@@ -61,6 +61,29 @@ Morsestr. 3, 10587 Berlin- Charlottenburg
 
 最后结帐的时候老板说是每个人19欧，于是我整个人都不好了。虽然说菜的味道还是不错的，但对于这5个菜而言有点贵了。
 
+#珊珊小屋
+
+Gleimstr 24
+10437 Berlin
+
+- 吃的次数: = 1。 位置相对较偏，价位也相对价高。但是菜本身的质量还是不错的一家非常不起眼的台湾餐厅。进店之后老板推荐他们的晚间的2人套餐，然后不需要点菜，老板会询问你的口味来给你安排菜肴，还是挺特别的。我看菜单上写的 19 Euro，就觉得OK。
+
+三个前菜菜：
+{% picture [preset] chengdiao1.jpg   %}
+炸馄饨
+{% picture [preset] chengdiao2.jpg   %}
+炸的豆腐和萝卜蘑菇
+{% picture [preset] chengdiao3.jpg   %}
+茄子
+
+两个主菜
+{% picture [preset] chengdiao4.jpg   %}
+豆腐果烧鸡肉
+{% picture [preset] chengdiao5.jpg   %}
+豆腐烧腊肉
+
+最后结帐的时候老板说是每个人19欧，于是我整个人都不好了。虽然说菜的味道还是不错的，但对于这5个菜而言有点贵了。
+
 ##西餐篇
 
 #Marubi （日本料理）
