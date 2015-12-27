@@ -75,3 +75,19 @@ Kollwitzstr. 47
 海鲜拉面 8.9 Euro
 
 - 吃的次数: = 1。饭和面的量都极其之少，作为男生的话，完全无法吃饱。味道还可以，店员都是中国人。
+
+
+#El Borriquito （西班牙餐）
+
+Wielandstraße 6, 10625 Berlin
+
+{% picture [preset] El_Borriquito2.jpg  %}
+海鲜grill拼盘 13.5 Euro
+
+{% picture [preset] El_Borriquito4.jpg  %}
+海鲜饭 12.5 Euro
+
+- 吃的次数: = 1。这家点还挺火的，去之前最好提前预约。我觉得在柏林能吃到这个挺新鲜的海鲜还是很不错的，海鲜拼盘挺赞，里面海鲜品种挺多的，味道也挺好的。
+
+
+
