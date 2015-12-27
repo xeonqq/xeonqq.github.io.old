@@ -4,7 +4,7 @@
  <title>Xeonqq&#39;s Tech Playground</title>
  <link href="http://xeonqq.github.io/atom.xml" rel="self"/>
  <link href="http://xeonqq.github.io"/>
- <updated>2015-12-27T22:10:57+01:00</updated>
+ <updated>2015-12-27T22:23:07+01:00</updated>
  <id>http://xeonqq.github.io</id>
  <author>
    <name>xeonqq</name>
@@ -393,29 +393,8 @@
 10245 Berlin&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;吃的次数: = 1。柏林有很多露天的可以吃到各地美食的小市场，外国人很喜欢去那里吃点东西聊聊天，Neue Heimat是评价比较好的市场之一。一般来说，这种市场中国人比较少，因为对大多数国人而言，这里所谓的美食并没有足够的吸引力，并且价位比较高。我是为了章鱼小丸子去的，有时间和兴趣的同学也可以去其他类似的市场看看，一来感受一下气氛，二来可以寻找自己心中的美食。&lt;/li&gt;
+&lt;li&gt;吃的次数: = 1。柏林有很多露天的可以吃到各地美食的小市场，外国人很喜欢去那里吃点东西聊聊天，Neue Heimat是评价比较好的市场之一，我去单纯是为了章鱼小丸子。&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;一份小丸子的价位 好像3.5 Euro
-&lt;picture&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-1050by1400-5a60d6.JPG&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-700by933-5a60d6.JPG&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-675by900-5a60d6.JPG&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-450by600-5a60d6.JPG&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-525by300-5a60d6.JPG&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi1-350by200-5a60d6.JPG&quot;&gt;
-    &lt;img src=&quot;http://xeonqq.github.io/generated/xiaowanzi1-350by200-5a60d6.JPG&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
-  &lt;/picture&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;picture&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-1050by1400-1ccf63.JPG&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-700by933-1ccf63.JPG&quot; media=&quot;(min-width: 40em)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-675by900-1ccf63.JPG&quot; media=&quot;(min-width: 30em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 30em) and (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-450by600-1ccf63.JPG&quot; media=&quot;(min-width: 30em)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-525by300-1ccf63.JPG&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot;&gt;
-    &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi2-350by200-1ccf63.JPG&quot;&gt;
-    &lt;img src=&quot;http://xeonqq.github.io/generated/xiaowanzi2-350by200-1ccf63.JPG&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
-  &lt;/picture&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;picture&gt;
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi3-1050by1400-1b7c08.JPG&quot; media=&quot;(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)&quot;&gt;
@@ -426,6 +405,8 @@
     &lt;source srcset=&quot;http://xeonqq.github.io/generated/xiaowanzi3-350by200-1b7c08.JPG&quot;&gt;
     &lt;img src=&quot;http://xeonqq.github.io/generated/xiaowanzi3-350by200-1b7c08.JPG&quot; class=&quot;blog-full&quot; itemprop=&quot;image&quot; &gt;
   &lt;/picture&gt;&lt;/p&gt;
+
+&lt;p&gt;一份小丸子 好像3.5 Euro。里面真的有章鱼脚，比我国内吃山寨版好吃多了。&lt;/p&gt;
 </content>
  </entry>
  
