@@ -70,9 +70,9 @@ Gleimstr. 24
 - 吃的次数: = 1。 位置相对较偏，价位也相对价高,但是菜本身的质量还是不错的.之前在网上看到有人评价服务不好，去了一次才理解了什么叫服务态度差，服务员不停地让我点酒水，而且换着人的换着花样的来询问要不要点酒水，最后打包的时候也一副嫌弃的样子。建议手头足够宽裕的同学可以去尝试一下，另外注意他们家的一些菜需要提前预定。
 
 松鼠鲤鱼：
-{% picture [preset] shanshan1.jpg   %}
+{% picture [preset] shanshan1.JPG   %}
 砂锅猪手：
-{% picture [preset] shanshan2.jpg   %}
+{% picture [preset] shanshan2.JPG   %}
 
 #老友记 Good Friend
 
